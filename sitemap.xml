@@ -1,68 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://alenarslanagic.net/publication-type/1/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/alen-arslanagic/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/authors/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication_types/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication/bfa/</loc>
+    <lastmod>2022-03-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/anda-amelia-palamariuc/</loc>
+    <lastmod>2021-07-14T19:25:49+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication/mst-pi/</loc>
+    <lastmod>2021-07-14T19:25:49+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/project/</loc>
+    <lastmod>2020-08-20T20:05:01+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/project/unify/</loc>
+    <lastmod>2020-08-20T20:05:01+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/erik-voogd/</loc>
+    <lastmod>2019-08-03T22:02:11+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication/misty/</loc>
+    <lastmod>2019-08-03T22:02:11+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/talk/plnl18/</loc>
+    <lastmod>2018-12-04T21:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/talk/</loc>
+    <lastmod>2018-12-04T21:11:44+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/talk/lap18/</loc>
+    <lastmod>2018-08-04T21:11:38+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/jorge-a.-perezhttps/www.jperez.nl/</loc>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/pavle-subotichttp/psubotic.github.io/</loc>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/alen-arslanagic/</loc>
+  </url><url>
+    <loc>https://alenarslanagic.net/categories/</loc>
+  </url><url>
+    <loc>https://alenarslanagic.net/post/</loc>
+  </url><url>
+    <loc>https://alenarslanagic.net/tags/</loc>
+  </url>
 </urlset>

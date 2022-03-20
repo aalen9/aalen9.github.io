@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Academic</title>
-    <link>/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Academic</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <title>Recent &amp; Upcoming Talks | Alen Arslanagić</title>
+    <link>https://alenarslanagic.net/talk/</link>
+      <atom:link href="https://alenarslanagic.net/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Dec 2018 21:11:44 +0200</lastBuildDate>
+    <image>
+      <url>https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://alenarslanagic.net/talk/</link>
+    </image>
     
-	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Minimal Session Types</title>
+      <link>https://alenarslanagic.net/talk/plnl18/</link>
+      <pubDate>Tue, 04 Dec 2018 21:11:44 +0200</pubDate>
+      <guid>https://alenarslanagic.net/talk/plnl18/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Type system with restrictions (LAP18)</title>
+      <link>https://alenarslanagic.net/talk/lap18/</link>
+      <pubDate>Sat, 04 Aug 2018 21:11:38 +0200</pubDate>
+      <guid>https://alenarslanagic.net/talk/lap18/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
