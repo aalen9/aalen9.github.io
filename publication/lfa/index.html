@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="PhD student">
+  <meta name="description" content="Static analyses based on typestates are important in certifying correctness of code contracts. Such analyses rely on Deterministic Finite Automata (DFAs) to specify properties of an object. We target the analysis of contracts in low-latency environments, where many useful contracts are impractical to codify as DFAs and/or the size of their associated DFAs leads to sub-par performance. To address this bottleneck, we present a lightweight typestate analyzer, based on an expressive specification language that can succinctly specify code contracts. By implementing it in the static analyzer Infer, we demonstrate considerable performance and usability benefits when compared to existing techniques. A central insight is to rely on a sub-class of DFAs with efficient bit-vector operations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alenarslanagic.net/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://alenarslanagic.net/publication/lfa/">
 
   
 
@@ -262,14 +262,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Alen Arslanagić">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://alenarslanagic.net/authors/">
+  <link rel="canonical" href="https://alenarslanagic.net/publication/lfa/">
 
   
   
@@ -285,18 +283,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alen Arslanagić">
-  <meta property="og:url" content="https://alenarslanagic.net/authors/">
-  <meta property="og:title" content="Authors | Alen Arslanagić">
-  <meta property="og:description" content="PhD student"><meta property="og:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="og:url" content="https://alenarslanagic.net/publication/lfa/">
+  <meta property="og:title" content="Scalable Typestate Analysis for Low-Latency Environments | Alen Arslanagić">
+  <meta property="og:description" content="Static analyses based on typestates are important in certifying correctness of code contracts. Such analyses rely on Deterministic Finite Automata (DFAs) to specify properties of an object. We target the analysis of contracts in low-latency environments, where many useful contracts are impractical to codify as DFAs and/or the size of their associated DFAs leads to sub-par performance. To address this bottleneck, we present a lightweight typestate analyzer, based on an expressive specification language that can succinctly specify code contracts. By implementing it in the static analyzer Infer, we demonstrate considerable performance and usability benefits when compared to existing techniques. A central insight is to rely on a sub-class of DFAs with efficient bit-vector operations."><meta property="og:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2022-06-19T17:36:25&#43;01:00">
+    
+      <meta property="article:published_time" content="2022-06-19T17:36:25&#43;01:00">
+    
+    <meta property="article:modified_time" content="2022-06-19T17:36:25&#43;01:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://alenarslanagic.net/publication/lfa/"
+  },
+  "headline": "Scalable Typestate Analysis for Low-Latency Environments",
+  
+  "datePublished": "2022-06-19T17:36:25+01:00",
+  "dateModified": "2022-06-19T17:36:25+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Alen Arslanagić"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alen Arslanagić",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Static analyses based on typestates are important in certifying correctness of code contracts. Such analyses rely on Deterministic Finite Automata (DFAs) to specify properties of an object. We target the analysis of contracts in low-latency environments, where many useful contracts are impractical to codify as DFAs and/or the size of their associated DFAs leads to sub-par performance. To address this bottleneck, we present a lightweight typestate analyzer, based on an expressive specification language that can succinctly specify code contracts. By implementing it in the static analyzer Infer, we demonstrate considerable performance and usability benefits when compared to existing techniques. A central insight is to rely on a sub-class of DFAs with efficient bit-vector operations."
+}
+</script>
+
+  
 
   
 
@@ -304,10 +345,13 @@
   
 
 
+  
 
 
 
-  <title>Authors | Alen Arslanagić</title>
+
+
+  <title>Scalable Typestate Analysis for Low-Latency Environments | Alen Arslanagić</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -552,6 +596,98 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Scalable Typestate Analysis for Low-Latency Environments</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Alen Arslanagić</span>, <span ><a href="http://psubotic.github.io" target="_blank" rel="noopener">Pavle Subotić</a></span>, <span ><a href="https://www.jperez.nl" target="_blank" rel="noopener">Jorge A. Pérez</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -567,51 +703,283 @@
 
 
 
-  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1007/978-3-031-07727-2_18" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/lfa.pdf" >
+    
+    PDF
+  </a>
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/aalen9/lfa" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Code
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://zenodo.org/record/6393183" target="_blank" rel="noopener">
+    
+    Artifact
+  </a>
+
+
+</div>
+
 
   
 </div>
 
 
+  <div class="article-container">
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Static analyses based on typestates are important in certifying correctness of code contracts. Such analyses rely on Deterministic Finite Automata (DFAs) to specify properties of an object. We target the analysis of contracts in low-latency environments, where many useful contracts are impractical to codify as DFAs and/or the size of their associated DFAs leads to sub-par performance. To address this bottleneck, we present a lightweight typestate analyzer, based on an expressive specification language that can succinctly specify code contracts. By implementing it in the static analyzer Infer, we demonstrate considerable performance and usability benefits when compared to existing techniques. A central insight is to rely on a sub-class of DFAs with efficient bit-vector operations.</p> 
+    
 
-<div class="universal-wrapper">
-  
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
-  <ul>
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Scalable Typestate Analysis for Low-Latency Environments (iFM 2022)</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="https://alenarslanagic.net/author/alen-arslanagic/">Alen Arslanagić</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://alenarslanagic.net/publication/lfa/&amp;text=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://alenarslanagic.net/author/anda-amelia-palamariuc/">Anda-Amelia Palamariuc</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://alenarslanagic.net/publication/lfa/&amp;t=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://alenarslanagic.net/author/erik-voogd/">Erik Voogd</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments&amp;body=https://alenarslanagic.net/publication/lfa/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://alenarslanagic.net/author/jorge-a.-perezhttps/www.jperez.nl/">[Jorge A. Pérez](https://www.jperez.nl)</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://alenarslanagic.net/publication/lfa/&amp;title=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://alenarslanagic.net/author/pavle-subotichttp/psubotic.github.io/">[Pavle Subotić](http://psubotic.github.io)</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments%20https://alenarslanagic.net/publication/lfa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
     
       
-      <li><a href="https://alenarslanagic.net/author/alen-arslanagic/">Alen Arslanagić</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://alenarslanagic.net/publication/lfa/&amp;title=Scalable%20Typestate%20Analysis%20for%20Low-Latency%20Environments" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
 
   
 
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/mst-pi/">Minimal Session Types for the pi-calculus</a></li>
+      
+      <li><a href="/publication/misty/">Minimal Session Types</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
 </div>
 
       
