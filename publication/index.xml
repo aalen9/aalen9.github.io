@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Bit-vector Typestate Analysis</title>
+      <link>https://alenarslanagic.net/publication/bfa/</link>
+      <pubDate>Sun, 19 Jun 2022 17:36:25 +0100</pubDate>
+      <guid>https://alenarslanagic.net/publication/bfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Scalable Typestate Analysis for Low-Latency Environments</title>
       <link>https://alenarslanagic.net/publication/lfa/</link>
       <pubDate>Sun, 19 Jun 2022 17:36:25 +0100</pubDate>
