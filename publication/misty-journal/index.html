@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="PhD student">
+  <meta name="description" content="We study a minimal formulation of session types *without sequencing*. We show how to forgoing sequencing in types, and only with sequencing on the level of processes, we can recover the usual theory of session types. More specifically, we show an encoding of regular session types into minimal session types, grounded in Parrow’s decomposition of a pi-calculus process into a collection of trios. We show that the correctness of the decomposition using a form of a session-typed bisimulation.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alenarslanagic.net/publication_types/">
+  <link rel="alternate" hreflang="en-us" href="https://alenarslanagic.net/publication/misty-journal/">
 
   
 
@@ -262,14 +262,12 @@
   
 
   
-  <link rel="alternate" href="/publication_types/index.xml" type="application/rss+xml" title="Alen Arslanagić">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://alenarslanagic.net/publication_types/">
+  <link rel="canonical" href="https://alenarslanagic.net/publication/misty-journal/">
 
   
   
@@ -285,18 +283,61 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alen Arslanagić">
-  <meta property="og:url" content="https://alenarslanagic.net/publication_types/">
-  <meta property="og:title" content="Publication_types | Alen Arslanagić">
-  <meta property="og:description" content="PhD student"><meta property="og:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+  <meta property="og:url" content="https://alenarslanagic.net/publication/misty-journal/">
+  <meta property="og:title" content="A Minimal Formulation of Session Types | Alen Arslanagić">
+  <meta property="og:description" content="We study a minimal formulation of session types *without sequencing*. We show how to forgoing sequencing in types, and only with sequencing on the level of processes, we can recover the usual theory of session types. More specifically, we show an encoding of regular session types into minimal session types, grounded in Parrow’s decomposition of a pi-calculus process into a collection of trios. We show that the correctness of the decomposition using a form of a session-typed bisimulation."><meta property="og:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
   <meta property="twitter:image" content="https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2023-05-19T17:36:25&#43;01:00">
+    
+      <meta property="article:published_time" content="2023-01-03T22:02:11&#43;02:00">
+    
+    <meta property="article:modified_time" content="2023-01-03T22:02:11&#43;02:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://alenarslanagic.net/publication/misty-journal/"
+  },
+  "headline": "A Minimal Formulation of Session Types",
+  
+  "datePublished": "2023-01-03T22:02:11+02:00",
+  "dateModified": "2023-01-03T22:02:11+02:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "**Alen Arslanagić**"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alen Arslanagić",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "We study a minimal formulation of session types *without sequencing*. We show how to forgoing sequencing in types, and only with sequencing on the level of processes, we can recover the usual theory of session types. More specifically, we show an encoding of regular session types into minimal session types, grounded in Parrow’s decomposition of a pi-calculus process into a collection of trios. We show that the correctness of the decomposition using a form of a session-typed bisimulation."
+}
+</script>
+
+  
 
   
 
@@ -304,10 +345,13 @@
   
 
 
+  
 
 
 
-  <title>Publication_types | Alen Arslanagić</title>
+
+
+  <title>A Minimal Formulation of Session Types | Alen Arslanagić</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -581,6 +625,98 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>A Minimal Formulation of Session Types</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><strong>Alen Arslanagić</strong></span>, <span ><a href="https://groupoid.moe" target="_blank" rel="noopener"><strong>Dan Frumin</strong></a></span>, <span ><a href="https://www.jperez.nl" target="_blank" rel="noopener"><strong>Jorge A. Pérez</strong></a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    January 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
 
 
@@ -591,64 +727,243 @@
 
 
 
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Publication_types</h1>
 
-  
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
+  <div class="article-container">
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">We study a minimal formulation of session types <em>without sequencing</em>. We show how to forgoing sequencing in types, and only with sequencing on the level of processes, we can recover the usual theory of session types. More specifically, we show an encoding of regular session types into minimal session types, grounded in Parrow’s decomposition of a pi-calculus process into a collection of trios. We show that the correctness of the decomposition using a form of a session-typed bisimulation.</p> 
+    
 
-<div class="universal-wrapper">
-  
-
-  
-  
     
-    
-    
-    <div>
-      <h2><a href="/publication-type/2/" >2</a></h2>
-      <div class="article-style">
-        
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
-  
+    <div class="d-md-none space-below"></div>
     
+
     
-    
-    <div>
-      <h2><a href="/publication-type/3/" >3</a></h2>
-      <div class="article-style">
-        
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">A Minimal Formulation of Session Types (in submission)</div>
+        </div>
       </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"> </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
   
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    
-    
-    <div>
-      <h2><a href="/publication-type/1/" >1</a></h2>
-      <div class="article-style">
+      
+      
+      
         
-      </div>
-    </div>
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://alenarslanagic.net/publication/misty-journal/&amp;text=A%20Minimal%20Formulation%20of%20Session%20Types" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://alenarslanagic.net/publication/misty-journal/&amp;t=A%20Minimal%20Formulation%20of%20Session%20Types" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=A%20Minimal%20Formulation%20of%20Session%20Types&amp;body=https://alenarslanagic.net/publication/misty-journal/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://alenarslanagic.net/publication/misty-journal/&amp;title=A%20Minimal%20Formulation%20of%20Session%20Types" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=A%20Minimal%20Formulation%20of%20Session%20Types%20https://alenarslanagic.net/publication/misty-journal/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://alenarslanagic.net/publication/misty-journal/&amp;title=A%20Minimal%20Formulation%20of%20Session%20Types" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
   
+    
+    
+
+
+
+
 
   
 
+
+  
+    
+    
+
+
+
+
+
+
+  
+    
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/misty/">Minimal Session Types</a></li>
+      
+      <li><a href="/publication/lfa/">Scalable Typestate Analysis for Low-Latency Environments</a></li>
+      
+      <li><a href="/publication/mst-pi/">Minimal Session Types for the pi-calculus</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
 </div>
 
       

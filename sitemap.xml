@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alenarslanagic.net/publication-type/2/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
-  </url><url>
     <loc>https://alenarslanagic.net/author/alen-arslanagic/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication-type/2/</loc>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/authors/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/publication/bfa/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/publication_types/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/publication/</loc>
-    <lastmod>2023-04-19T17:36:25+01:00</lastmod>
+    <lastmod>2023-05-19T17:36:25+01:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication-type/3/</loc>
+    <lastmod>2023-01-03T22:02:11+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/publication/misty-journal/</loc>
+    <lastmod>2023-01-03T22:02:11+02:00</lastmod>
   </url><url>
     <loc>https://alenarslanagic.net/publication-type/1/</loc>
     <lastmod>2022-06-19T17:36:25+01:00</lastmod>
@@ -55,6 +61,8 @@
   </url><url>
     <loc>https://alenarslanagic.net/talk/lap18/</loc>
     <lastmod>2018-08-04T21:11:38+02:00</lastmod>
+  </url><url>
+    <loc>https://alenarslanagic.net/author/dan-fruminhttps/groupoid.moe/</loc>
   </url><url>
     <loc>https://alenarslanagic.net/author/jorge-a.-perezhttps/www.jperez.nl/</loc>
   </url><url>

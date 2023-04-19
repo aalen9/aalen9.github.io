@@ -5,7 +5,7 @@
     <link>https://alenarslanagic.net/publication/</link>
       <atom:link href="https://alenarslanagic.net/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Apr 2023 17:36:25 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 19 May 2023 17:36:25 +0100</lastBuildDate>
     <image>
       <url>https://alenarslanagic.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -15,8 +15,16 @@
     <item>
       <title>Bit-vector Typestate Analysis</title>
       <link>https://alenarslanagic.net/publication/bfa/</link>
-      <pubDate>Wed, 19 Apr 2023 17:36:25 +0100</pubDate>
+      <pubDate>Fri, 19 May 2023 17:36:25 +0100</pubDate>
       <guid>https://alenarslanagic.net/publication/bfa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Minimal Formulation of Session Types</title>
+      <link>https://alenarslanagic.net/publication/misty-journal/</link>
+      <pubDate>Tue, 03 Jan 2023 22:02:11 +0200</pubDate>
+      <guid>https://alenarslanagic.net/publication/misty-journal/</guid>
       <description></description>
     </item>
     
